@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Garbage Collector – Smart Garbage Collection and Report Management System Using GeoCamera and GPS Location.">
+  <meta name="theme-color" content="#0e7c5a">
+  <title>Garbage Collector – Smart Urban Waste Reporting &amp; Collection System</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="app"></div>
+
+  <!-- Optional local runtime env (gitignored config/env.js); safely skipped if absent -->
+  <script src="config/env.js" onerror="this.remove()"></script>
+
+  <!-- Official Supabase JavaScript Client v2 -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <!-- Configuration -->
+  <script src="config/appConfig.js"></script>
+  <script src="config/supabaseConfig.js"></script>
+  <script src="config/mapsConfig.js"></script>
+
+  <!-- Utilities -->
+  <script src="utils/dom.js"></script>
+  <script src="utils/geo.js"></script>
+  <script src="utils/priority.js"></script>
+  <script src="utils/camera.js"></script>
+  <script src="utils/legacyMigration.js"></script>
+
+  <!-- Core State, Storage, Database, Realtime & Controllers -->
+  <script src="js/state.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/db.js"></script>
+  <script src="js/realtime.js"></script>
+  <script src="js/notifications.js"></script>
+  <script src="js/users.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/maps.js"></script>
+  <script src="js/reports.js"></script>
+  <script src="js/areas.js"></script>
+
+  <!-- Reusable UI Components -->
+  <script src="components/header.js"></script>
+  <script src="components/navigation.js"></script>
+  <script src="components/statCard.js"></script>
+  <script src="components/reportCard.js"></script>
+  <script src="components/googleMap.js"></script>
+
+  <!-- Pages -->
+  <script src="pages/loginPage.js"></script>
+  <script src="pages/citizenDashboard.js"></script>
+  <script src="pages/reportPage.js"></script>
+  <script src="pages/myReportsPage.js"></script>
+  <script src="pages/collectorDashboard.js"></script>
+  <script src="pages/adminDashboard.js"></script>
+  <script src="pages/hotspotsPage.js"></script>
+  <script src="pages/usersPage.js"></script>
+  <script src="pages/areasPage.js"></script>
+  <script src="pages/notificationsPage.js"></script>
+  <script src="pages/profilePage.js"></script>
+
+  <!-- App Bootstrap -->
+  <script src="js/app.js"></script>
+</body>
+</html>

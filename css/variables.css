@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Design Tokens & Variables
+   Preserves Garbage Collector branding with a consistent spacing & type scale
+   ========================================================================== */
+:root {
+  /* Core Palette */
+  --bg: #f3f8fb;
+  --surface: #ffffff;
+  --surface-subtle: #f8fbfd;
+  --text: #14263a;
+  --text-muted: #5d7388;
+  --border: #dfe9f1;
+  --border-strong: #cbd9e6;
+
+  /* Brand & Semantic Colors */
+  --green-dark: #0e7c5a;
+  --emerald: #10b981;
+  --emerald-soft: #ecfdf5;
+  --teal: #06b6d4;
+  --blue: #2563eb;
+  --blue-light: #3b82f6;
+  --blue-soft: #eff6ff;
+  --purple: #8b5cf6;
+  --purple-soft: #f5f3ff;
+  --amber: #f59e0b;
+  --amber-soft: #fffbeb;
+  --red: #ef4444;
+  --red-soft: #fef2f2;
+  --slate: #64748b;
+  --dark-nav: #162033;
+  --dark-nav-hover: #212f49;
+
+  /* Typography */
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --text-xs: 0.75rem;    /* 12px */
+  --text-sm: 0.875rem;   /* 14px */
+  --text-base: 1rem;     /* 16px */
+  --text-lg: 1.125rem;   /* 18px */
+  --text-xl: 1.375rem;   /* 22px */
+  --text-2xl: 1.75rem;   /* 28px */
+  --text-3xl: 2rem;      /* 32px */
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+
+  /* Border Radii */
+  --radius-sm: 0.625rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.125rem;
+  --radius-xl: 1.375rem;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(20, 38, 58, 0.05);
+  --shadow-md: 0 8px 24px rgba(20, 38, 58, 0.08);
+  --shadow-hero: 0 12px 28px rgba(14, 38, 58, 0.14);
+  --shadow-toast: 0 10px 28px rgba(15, 23, 42, 0.32);
+
+  /* Layout Dimensions */
+  --sidebar-width: 260px;
+  --header-height: 68px;
+  --bottom-nav-height: 68px;
+  --content-max-width: 1320px;
+
+  /* Transitions */
+  --ease: 0.18s ease;
+}
