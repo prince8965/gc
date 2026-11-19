@@ -15,5 +15,5 @@
 window.__ENV__ = Object.assign({}, window.__ENV__, {
   SUPABASE_URL: 'https://rkfeyocckbkqzwdjxtek.supabase.co',
   SUPABASE_PUBLISHABLE_KEY: 'sb_publishable_wsJrejo2NoMFncRJUwfOfA_jjMO75gu',
-  GOOGLE_MAPS_API_KEY: ''
+  GOOGLE_MAPS_API_KEY: 'AIzaSyDOkX0Zb9qzlYJ2oQuNQhKsnqXUmMNGWO4'
 });
